@@ -246,7 +246,7 @@ const Contact = () => {
             <FaMapMarkerAlt />
             <div>
               <h3>Our Location</h3>
-              <p>123 Commodity Avenue, Trade District<br />New York, NY 10001</p>
+              <p>25509 Industrial Boulevard, Hayward. <br />CA 94545 <br />California, USA</p>
             </div>
           </InfoItem>
   
@@ -254,7 +254,7 @@ const Contact = () => {
             <FaPhone />
             <div>
               <h3>Phone</h3>
-              <p><a href="tel:+18005551234">+1 (800) 555-1234</a></p>
+              <p><a href="tel:+1(650) 447-9207">+1 (650) 447-9207</a></p>
             </div>
           </InfoItem>
   
@@ -262,7 +262,7 @@ const Contact = () => {
             <FaEnvelope />
             <div>
               <h3>Email</h3>
-              <p><a href="mailto:info@atlantiscommodities.com">info@atlantiscommodities.com</a></p>
+              <p><a href="mailto:infor@atlantiscommoditiesllc.com">infor@atlantiscommoditiesllc.com</a></p>
             </div>
           </InfoItem>
         </ContactInfo>
