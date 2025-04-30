@@ -87,9 +87,10 @@ export default function AboutPreviewSection() {
         <AboutContent>
           <h2>About Atlantis Commodities</h2>
           <p>
-            Since 2010, Atlantis Commodities LLC has been a trusted global partner in premium commodity distribution. 
-            We specialize in connecting quality producers with discerning buyers through our extensive network and 
-            market expertise.
+          Atlantis Commodities LLC, founded in 2021, is a trusted U.S.-based wholesale supplier of premium industrial and general-use materials. 
+          With a focus on reliability and quality, we serve clients nationwide through ethical sourcing, innovative logistics, 
+          and a strategic location near a major shipping port. Our strengths include high-volume fulfillment, competitive 
+          pricing, and consistent quality assurance.
           </p>
           <p>
             Our commitment to ethical sourcing, quality assurance, and reliable logistics sets us apart in the industry.
