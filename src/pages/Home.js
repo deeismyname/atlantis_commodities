@@ -5,6 +5,7 @@ import { products, testimonials, partners, stats } from '../data/data';
 import heroImage from '../assets/hero.webp';
 import AboutPreviewSection from '../components/AboutPreviewSection';
 import CTA from '../components/CTA';
+import { useNavigate } from 'react-router-dom';
 
 // Global Styles
 const GlobalStyle = createGlobalStyle`
@@ -400,7 +401,9 @@ const PartnerLogo = styled.img`
   }
 `;
 
+
 const Home = () => {
+  const navigate = useNavigate();
   return (
     <>
       <GlobalStyle />
@@ -408,7 +411,7 @@ const Home = () => {
         <Hero>
           <h1>Atlantis Commodities LLC</h1>
           <p>Global leaders in premium commodity distribution with unmatched quality and service</p>
-          <HeroButton>Explore Our Products</HeroButton>
+          <HeroButton onClick={() => navigate('/products')}>Explore Our Products</HeroButton>
         </Hero>
 
         <AboutPreviewSection />
