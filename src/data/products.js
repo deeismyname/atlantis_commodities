@@ -8,10 +8,10 @@ export const myproducts = [
     description: 'Heavy-duty contractor trash bags for professional use',
     specifications: {
       thickness: '3 MIL',
-      microns: '76 microns',
+      microns: '76.4 microns',
       dimensions: '83.1 x 114 cm (W x L)',
-      material: 'High-density polyethylene',
-      capacity: '55 gallons',
+      // material: 'High-density polyethylene',
+      capacity: '42+ gallons',
       color: 'Black'
     }
   },
@@ -22,10 +22,10 @@ export const myproducts = [
     description: 'Heavy-duty contractor trash bags for professional use',
     specifications: {
       thickness: '6 MIL',
-      microns: '76 microns',
+      microns: '76.4 microns',
       dimensions: '83.1 x 114 cm (W x L)',
-      material: 'High-density polyethylene',
-      capacity: '55 gallons',
+      // material: 'High-density polyethylene',
+      capacity: '42+ gallons',
       color: 'Black'
     }
   },
@@ -36,10 +36,10 @@ export const myproducts = [
     description: 'Heavy-duty contractor trash bags for professional use',
     specifications: {
       thickness: '9 MIL',
-      microns: '76 microns',
+      microns: '76.4 microns',
       dimensions: '83.1 x 114 cm (W x L)',
-      material: 'High-density polyethylene',
-      capacity: '55 gallons',
+      // material: 'High-density polyethylene',
+      capacity: '42+ gallons',
       color: 'Black'
     }
   }
