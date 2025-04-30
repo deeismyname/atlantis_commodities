@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
-import aboutImage from '../assets/about-preview.jpg'; // Ensure this image exists
+import aboutImage from '../assets/about-preview.webp'; // Ensure this image exists
 
 const AboutPreview = styled.section`
   padding: 4rem 2rem;

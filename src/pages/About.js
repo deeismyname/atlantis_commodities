@@ -1,13 +1,14 @@
 import React from 'react';
 import styled, { keyframes } from 'styled-components';
-import aboutHero from '../assets/about-hero.jpg';
-import teamImage from '../assets/team.jpg';
+import aboutHero from '../assets/about-hero.webp';
+import teamImage from '../assets/team.webp';
 import { FaAward } from 'react-icons/fa';
 import { FaGlobeAmericas } from 'react-icons/fa';
 import { FaShieldAlt } from 'react-icons/fa';
 import { FaBalanceScale } from "react-icons/fa";
 import { FaUserCheck } from "react-icons/fa6";
 import { FaHandsHoldingCircle } from "react-icons/fa6";
+import CTA from '../components/CTA';
 // Animations
 const float = keyframes`
   0% { transform: translateY(0px); }
@@ -279,25 +280,24 @@ const AboutPage = () => {
           <CompanyText>
             <h2>Global Leaders in Commodity Distribution</h2>
             <p>
-              Founded in 2010, Atlantis Commodities LLC has grown from a regional supplier to an internationally recognized leader in premium commodity distribution. 
-              Our journey began with a simple vision: to create transparent, reliable supply chains that benefit both producers and buyers.
+            Founded in 2021, Atlantis Commodities LLC is a regional wholesale supplier of premium packing materials. Our vision is simple: to create a reliable supply chain that benefits our clienteles.
             </p>
             <p>
-              Today, we operate across three continents, serving clients in over 30 countries with an extensive portfolio of agricultural products, 
-              minerals, and energy commodities. Our success stems from an unwavering commitment to quality, ethical sourcing, and innovative logistics solutions.
+              Today, we operate all over the USA, serving clients with an extensive portfolio of products. 
+              Our success stems from an unwavering commitment to quality, ethical sourcing, and innovative logistics solutions.
             </p>
             <CompanyHighlights>
-              <HighlightItem>150+ employees worldwide</HighlightItem>
-              <HighlightItem>12 strategically located offices</HighlightItem>
-              <HighlightItem>ISO 9001 certified quality management</HighlightItem>
-              <HighlightItem>24/7 customer support in multiple languages</HighlightItem>
+              <HighlightItem>Prime location outside a major shipping port</HighlightItem>
+              <HighlightItem>Quality assurance</HighlightItem>
+              <HighlightItem>High volume purchase order fulfillment</HighlightItem>
+              <HighlightItem>Competitive prices</HighlightItem>
             </CompanyHighlights>
           </CompanyText>
           <CompanyImage />
         </CompanyContent>
       </CompanySection>
 
-      <StorySection>
+      {/* <StorySection>
         <SectionTitle>Our Timeline</SectionTitle>
         <Timeline>
           <TimelineItem>
@@ -325,7 +325,7 @@ const AboutPage = () => {
             </TimelineContent>
           </TimelineItem>
         </Timeline>
-      </StorySection>
+      </StorySection> */}
 
       <ValuesSection>
         <SectionTitle color="white">Our Core Values</SectionTitle>
@@ -362,6 +362,8 @@ const AboutPage = () => {
           </ValueCard>
         </ValuesGrid>
       </ValuesSection>
+
+      <CTA />
 
       <SectionDivider />
     </AboutContainer>

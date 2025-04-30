@@ -212,12 +212,12 @@ const Contact = () => {
         <ContactForm ref={form} onSubmit={sendEmail}>
           <FormGroup>
             <label htmlFor="name">Your Name</label>
-            <input type="text" id="name" name="name" required />
+            <input type="text" id="name" name="user_name" required />
           </FormGroup>
   
           <FormGroup>
             <label htmlFor="email">Email Address</label>
-            <input type="email" id="email" name="email" required />
+            <input type="email" id="email" name="user_email" required />
           </FormGroup>
   
           <FormGroup>

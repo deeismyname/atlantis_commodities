@@ -2,8 +2,9 @@ import React from 'react';
 import styled, { createGlobalStyle } from 'styled-components';
 import ProductCard from '../components/ProductCard';
 import { products, testimonials, partners, stats } from '../data/data';
-import heroImage from '../assets/hero.jpeg';
+import heroImage from '../assets/hero.webp';
 import AboutPreviewSection from '../components/AboutPreviewSection';
+import CTA from '../components/CTA';
 
 // Global Styles
 const GlobalStyle = createGlobalStyle`
@@ -439,13 +440,13 @@ const Home = () => {
         </ProcessSection>
 
         <PremiumSection>
-          <SectionTitle>Our Premium Selection</SectionTitle>
-          <ProductFilters>
+          <SectionTitle>Our Stock</SectionTitle>
+          {/* <ProductFilters>
             <FilterButton active>All</FilterButton>
             <FilterButton>Agricultural</FilterButton>
             <FilterButton>Minerals</FilterButton>
             <FilterButton>Energy</FilterButton>
-          </ProductFilters>
+          </ProductFilters> */}
           <ProductGrid>
             {products.map(product => (
               <ProductCard key={product.id} product={product} />
@@ -453,7 +454,7 @@ const Home = () => {
           </ProductGrid>
         </PremiumSection>
 
-        <TestimonialsSection>
+        {/* <TestimonialsSection>
           <SectionTitle color="white">What Our Clients Say</SectionTitle>
           <TestimonialGrid>
             {testimonials.map((testimonial) => (
@@ -466,27 +467,27 @@ const Home = () => {
               </TestimonialCard>
             ))}
           </TestimonialGrid>
-        </TestimonialsSection>
+        </TestimonialsSection> */}
 
-        <StatsSection>
+        {/* <StatsSection>
           {stats.map((stat, index) => (
             <StatItem key={index}>
               <StatNumber>{stat.value}</StatNumber>
               <StatLabel>{stat.label}</StatLabel>
             </StatItem>
           ))}
-        </StatsSection>
+        </StatsSection> */}
 
-        <NewsletterSection>
+        {/* <NewsletterSection>
           <SectionTitle>Stay Updated</SectionTitle>
           <SectionSubtitle>Subscribe to our newsletter for market insights and product updates</SectionSubtitle>
           <NewsletterForm>
             <Input type="email" placeholder="Your email address" />
             <SubscribeButton type="submit">Subscribe</SubscribeButton>
           </NewsletterForm>
-        </NewsletterSection>
+        </NewsletterSection> */}
 
-        <PartnersSection>
+        {/* <PartnersSection>
           <SectionTitle>Trusted By</SectionTitle>
           <PartnerLogos>
             {partners.map(partner => (
@@ -497,7 +498,9 @@ const Home = () => {
               />
             ))}
           </PartnerLogos>
-        </PartnersSection>
+        </PartnersSection> */}
+
+        <CTA />
       </HomeWrapper>
     </>
   );
