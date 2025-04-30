@@ -9,6 +9,7 @@ import GlobalStyles from './styles/GlobalStyles';
 import styled from 'styled-components';
 import Products from './pages/Products';
 import Contact from './pages/Contact';
+import ScrollToTop from './components/ScrollToTop';
 
 const AppContainer = styled.div`
   min-height: 100vh;
@@ -26,6 +27,7 @@ function App() {
       <GlobalStyles />
       <AppContainer>
         <Header />
+        <ScrollToTop />
         <MainContent>
           <Routes>
             <Route path="/" element={<Home />} />
