@@ -39,7 +39,7 @@ const Footer = () => {
     <FooterWrapper>
       <FooterContent>
         <p>© 2025 Atlantis Commodities LLC. All rights reserved.</p>
-        <p>Contact: infor@atlantiscommoditiesllc.com | +1 (650) 447-9207</p>
+        <p>Contact: info@atlantiscommoditiesllc.com | +1 (650) 447-9207</p>
       </FooterContent>
     </FooterWrapper>
   );

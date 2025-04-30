@@ -262,7 +262,7 @@ const Contact = () => {
             <FaEnvelope />
             <div>
               <h3>Email</h3>
-              <p><a href="mailto:infor@atlantiscommoditiesllc.com">infor@atlantiscommoditiesllc.com</a></p>
+              <p><a href="mailto:infor@atlantiscommoditiesllc.com">info@atlantiscommoditiesllc.com</a></p>
             </div>
           </InfoItem>
         </ContactInfo>
