@@ -87,7 +87,7 @@ export default function AboutPreviewSection() {
         <AboutContent>
           <h2>About Atlantis Commodities</h2>
           <p>
-          We are a trusted U.S.-based wholesale supplier of premium industrial and general-use materials. 
+          We are a trusted US-based wholesale supplier of premium industrial and general-use materials. 
           With a focus on reliability and quality, we serve clients nationwide through ethical sourcing, innovative logistics, 
           and a strategic location near a major shipping port. Our strengths include high-volume fulfillment, competitive 
           pricing, and consistent quality assurance.
