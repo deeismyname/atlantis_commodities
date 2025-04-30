@@ -278,7 +278,7 @@ const AboutPage = () => {
         <SectionTitle>Who We Are</SectionTitle>
         <CompanyContent>
           <CompanyText>
-            <h2>Global Leaders in Commodity Distribution</h2>
+            <h2>Leaders in Commodity Distribution</h2>
             <p>
             Founded in 2021, Atlantis Commodities LLC is a regional wholesale supplier of premium packing materials. Our vision is simple: to create a reliable supply chain that benefits our clienteles.
             </p>
